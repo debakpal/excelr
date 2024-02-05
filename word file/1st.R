@@ -1,0 +1,13 @@
+setwd("C:/Users/Administrator/Downloads")
+getwd()
+data = read.csv("Q9_a.csv")
+summary(data)
+skewness(data$speed)
+skewness(data$dist)
+kurtosis(data$speed)
+kurtosis(data$dist)
+skewness(speed)
+speed = data$price
+skewness('speed')
+skewness(data$speed)
+plot(x = data$speed, y = data$dist, xlab = 'speed', ylab = 'dist', type = 'b', col = 'red', pch = 18)
